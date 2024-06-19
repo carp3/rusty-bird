@@ -1,0 +1,8 @@
+[package]
+name = "rusty-bird"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.13.2"
+rand = "0.8.5"
