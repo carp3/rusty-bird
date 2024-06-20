@@ -8,7 +8,7 @@ Assets are from [here](https://github.com/samuelcust/flappy-bird-assets).
 ![Screenshot](https://raw.githubusercontent.com/carp3/rusty-bird/main/screenshot.png)
 
 ### How to run: 
-On you local machine:
+On your local machine:
 
 `cargo run`
 
