@@ -469,7 +469,7 @@ fn move_pipes_and_game_logic(
         lower_t.translation.x -= delta_seconds * 2. * (100. + score.value.min(100) as f32);
         if lower_t.translation.x <= -500. {
             lower_t.translation.x = 500.0;
-            lower_t.translation.y = -100. + rand[i] as f32;
+            lower_t.translation.y = -100. +  score.value.min(100) as f32 + rand[i] as f32;
         }
         if initial_x > 0. && lower_t.translation.x <= 0. {
             score.value += 1;
